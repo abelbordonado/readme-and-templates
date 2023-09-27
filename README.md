@@ -7,6 +7,7 @@ Within this repository, you'll find a collection of READMEs and templates design
 
 - [Backend Readme](./readme/backend-readme.md)
 - [Frontend Readme](./readme/frontend-readme.md)
+- [Wiki Readme](./readme/wiki-readme.md)
 
 
 ## Template List
