@@ -2,6 +2,7 @@
 
 Make a short briefing
 
+Link to the WIKI
 ## Description of the Project
 
 List the features or link to your WIKI page
@@ -26,7 +27,9 @@ List the features or link to your WIKI page
 
 Notes for deployment, or brief about the pipeline configurations
 
-URL of the existing environments
+- How to fire a staging version.
+- How to fire a production version.
+- How to roll back in case of error.
 ### Stack
 
 What main libraries are used, with a link to the documentation. (I'm not talking about all the dependencies, but I am talking about the most important 3rd parties)
@@ -38,9 +41,27 @@ What main libraries are used, with a link to the documentation. (I'm not talking
 - Api Documentation
 - Log library
 - Sockets
-- etc
+- others
 
 ## Architecture
+
+## Server Diagram 
+
+A diagram that shows where is (server provider, dns provider) each element of the server (staging, production, database), 
+and how the relate between them. It can have information of the pipelines when auto deployment.
+
+- Link to the diagram (As possible a diagram that anyone can update easily if required)
+### Response 
+
+Describe the response object.
+Describe the logic of the HTTP errors returned.
+Other developer shall understand to keep maintaining the same structure / logic.
+
+### File Structure
+
+Which is the file structure
+
+How to contribute if I need to do a new model -  controller.
 
 ### Database
 
@@ -57,13 +78,18 @@ For example
 Users: Basic User tables
 User Session: (userId -> User) Sessions for authentication.
 User Todo List: (userId -> User) A user can have a todo list of items, with the status done or not
+Invitation (invitation -> A) Invitation has a record to the parent invitator
 -----
 
-### File Structure
+Leyend 
+* (A -> B) A has many B (B has a foreigner key pointing to A)
+* (A) A doesnt depened from any one. Is completely independent table
+* (A<>B) This table is a pivot table, relates many to many relation ship between A and B 
+* (A -> A) A has a relation to him self, normally of heriarchy, Like Tags and Sub Tags pointing to a parent Tag.
+* (B ~> A) Be has a soft relation to A, but is not with a foreigner key
 
-Which is the file structure
 
-How to contribute if I need to do a new model -  controller.
+
 
 ## Logics
 
