@@ -3,12 +3,7 @@
 Make a short briefing
 
 Link to the WIKI
-## Description of the Project
 
-List the features or link to your WIKI page
-
-- [ ]  Feature 1
-- [ ]  Feature 2
 
 ### Set Up
 
