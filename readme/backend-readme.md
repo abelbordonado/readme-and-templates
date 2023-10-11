@@ -75,12 +75,12 @@ Understanding the database is key to getting the business logic of the project.
 
 For example
 
------
+````
 Users: Basic User tables
 User Session: (userId -> User) Sessions for authentication.
 User Todo List: (userId -> User) A user can have a todo list of items, with the status done or not
 Invitation (invitation -> A) Invitation has a record to the parent invitator
------
+````
 
 Leyend 
 * (A -> B) A has many B (B has a foreigner key pointing to A)
