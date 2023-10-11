@@ -12,6 +12,11 @@ Link to the WIKI
 - Install and run the project
 - Installation troubleshooting (Typical errors that can happen)
 
+### Branches
+
+ - Which are the protected branches?
+ - Which is the current stable development branch? (Or where is this being said)
+
 ### Run
 
 - How to run the projects
@@ -25,9 +30,10 @@ Notes for deployment, or brief about the pipeline configurations
 - How to fire a staging version.
 - How to fire a production version.
 - How to roll back in case of error.
+  
 ### Stack
 
-What main libraries are used, with a link to the documentation. (I'm not talking about all the dependencies, but I am talking about the most important 3rd parties)
+What main libraries are used, with a link to the documentation (I'm not talking about all the dependencies, but I am talking about the most important 3rd parties)
 
 - Database
 - Migrations
