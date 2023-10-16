@@ -94,9 +94,9 @@ Leyend
 
 ## Logics
 
-## Api Documentation
+### Api Documentation
 
-How we add the API documentation and generate it. (According to the library we using  like Swagger, scrible, etc)
+How do we add the API documentation and generate it? (According to the library we use  like Swagger, scribble, etc)
 
 ### Queues
 
